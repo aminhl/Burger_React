@@ -160,7 +160,7 @@ class BurgerBuilder extends Component {
         >
           {orderSummary}
         </Modal>
-        {this.state.error ? <p>Ingredients can't be loaded !</p> : burger}
+        {this.state.error ? <p>Ingredients can't be loaded</p> : burger}
       </Aux>
     );
   }
